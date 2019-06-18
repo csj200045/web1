@@ -1,0 +1,64 @@
+.fhub-header {
+    border-bottom: 1px solid #cccccc;
+    font-size: 50px;
+    text-align: center;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 15px 0 15px 0;
+    color: #000000;
+}
+
+.today-trivia {
+    margin: 15px 18px 18px 18px;
+}
+
+#todayTriviaContainer {
+    font-size: 30px;
+    text-align: left;
+    color: black;
+}
+
+.today-cards-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 5px;
+    margin-top: 10px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+
+.today-card {
+    width: 480px;
+    height: 426px;
+}
+
+.today-card-bg {
+    width: 100%;
+    height: 100%;
+    background-image: url('bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.today-card-title {
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    text-shadow: black;
+    padding: 10px;
+}
+
+.divider {
+    height: 1px;
+    margin: 20px 18px;
+    background-color: #cccccc;
+}
+
+#favoritesContainer {
+    margin: 15px 18px 18px 18px;
+    font-size: 30px;
+    text-align: left;
+    color: black;
+}
